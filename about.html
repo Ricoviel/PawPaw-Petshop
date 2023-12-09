@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PawPaw PetShop - Tentang Kami</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+            <a href="index.html" class="navbar-brand">
+                <img src="./img/logo.png" class="img-fluid" style="width: 80px; height: 80px" alt="pawpawPetshop Logo">
+                <img src="./img/logo-caption.png" class="img-fluid" alt="PawPaw Petshop Name">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="./index.html" class="nav-item nav-link">Home</a>
+                    <a href="./about.html" class="nav-item nav-link active">Tentang Kami</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Makanan</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="./MakanKucing.html" class="dropdown-item">Kucing</a>
+                            <a href="./MakanAnjing.html" class="dropdown-item">Anjing</a>
+                            <a href="./MakanKucing.html" class="dropdown-item">Kelinci</a>
+                            <a href="./MakanBurung.html" class="dropdown-item">Burung</a>
+                        </div>
+                    </div>
+                    <a href="./vitamin.html" class="nav-item nav-link">Vitamin</a>
+                    <a href="./Perlengkapan.html" class="nav-item nav-link">Perlengkapan</a>
+                    <a href="./FAQ.html" class=" nav-item nav-link">FAQ</a>
+                </div>
+                <div class="my-2 me-3">
+                    <butaton type="button" class="btn text-warning p-0" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search fa-lg text-warning"></i></butaton>
+                </div>
+                <div class="my-2 me-3">
+                    <a href="./userProfile.html"><i class="fa fa-solid fa-user fa-lg text-warning"></i></a>
+                </div>
+                <div class="my-2 me-3">
+                    <a href="./shopping-cart.html"><i class="fa fa-solid fa-shopping-cart fa-lg text-warning"></i></a>
+                </div>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="input-group" style="max-width: 600px;">
+                            <input type="search" class="form-control bg-transparent border-light p-3"
+                                placeholder="Type search keyword">
+                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="start">
+            <div class="container">
+                <div class="row g-5 align-items-center justify-content-around">
+                    <!-- LOGO PAWPAW PETSHOP -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="./img/logo.png" alt="Logo Paw Paw Petshop" class="img-fluid"
+                            style="border-radius: 25px;">
+                    </div>
+                    <!-- AKHIR LOGO PAW PAW PETSHOP -->
+
+                    <!-- ISI TENTANG KAMI -->
+                    <div class="col-lg-6 wow fadeInUp d-flex flex-column" data-wow-delay="0.5s">
+                        <div class="desc-kami">
+                            <h1>PAW PAW Petshop</h1>
+                            <p class="mt-5">
+                                PAWPAW Petshop menyediakan brand lokal dan internasional untuk PetLovers di seluruh
+                                Indonesia. PAWPAW Petshop memiliki berbagai macam produk yang dapat memenuhi kebutuhan
+                                hewan
+                                peliharaan anda dengan menawarkan produk-produk berkualitas dari berbagai kategori,
+                                mulai
+                                dari makanan, vitamin, obat-obatan, aksesoris, kandang dan lain sebagainya.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ISI TENTANG KAMI -->
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- VISI DAN MISI -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="konten-visi col-12 wow fadeIn gy-5" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="isi-visi mt-5 ms-5 ">
+                            <h3 class="mt-2">
+                                Visi Kami :
+                            </h3>
+                            <p class="mt-3 text-about">
+                                PAWPAW Petshop menetapkan diri sebagai online shop di bidang penyedia kebutuhan hewan
+                                peliharaan guna mempermudah para konsumen dalam berbelanja, yang berpusat di Jakarta
+                                Selatan dan akan berlanjut ke seluruh Indonesia bahkan dunia. Paw Paw Petshop juga
+                                menjadi toko hewan yang mampu memberikan kesan puas dan nyaman di hati pelanggannya dan
+                                sehingga konsumen akan berkelanjutan membeli dan menjadi pelanggan setia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="konten-misi col-12 wow fadeIn gy-5" data-wow-delay="0.5s">
+                        <div class="isi-misi mt-4 ms-5">
+                            <h3>Misi Kami :</h3>
+                            <p>
+                            <ol>
+                                <li>Kepuasan pelanggan adalah tujuan utama kami</li>
+                                <li>Mempermudah kalangan masyarakat yang mempunyai kesibukan dan kegiatan yang banyak
+                                    sehingga memudahkan mereka dalam berbelanja</li>
+                                <li>Mampu menyediakan variasi pilihan menu yang selalu mengikuti trend masa kiniMampu
+                                    menyediakan variasi pilihan menu yang selalu mengikuti trend masa kini</li>
+                                <li>Dengan memberikan pelayanan terbaik bagi pelanggan, berupa kemudahan dalam
+                                    berbelanja serta kualitas produk dan barang terjamin dengan harga komperatif</li>
+                                <li>Terus mengembangkan jaringan dan relasi untuk menarik konsumen agar berminat
+                                    berbelanja di PAWPAW Petshop</li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AKHIR DARI VISI DAN MISI -->
+
+
+    <!-- BIO TIM -->
+    <div class="container-fluid bg-white py-5 pb-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-3">TIM KAMI</h1>
+            </div>
+            <div class="row g-0 justify-content-between">
+                <!-- FOTO TIM -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded-circle w-100" src="./img/koko.png" alt="Foto Enrico">
+                    </div>
+                    <h4 class="text-center">Enrico Juan Carlos</h4>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded-circle w-100" src="./img/ila.png" alt="Foto Ila">
+                    </div>
+                    <h4 class="text-center">Dwy Laila Safitry</h4>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded-circle w-100" src="./img/farhan.png" alt="Foto Farhan">
+                    </div>
+                    <h4 class="text-center">Farhan Putra</h4>
+                </div>
+                <!-- AKHIR FOTO TIM -->
+            </div>
+
+        </div>
+        <!-- SECTION KEUNGGULAN -->
+        <div class="container keunggulan">
+            <h2 class="mt-5 text-center">Kenapa Harus Memilih Kami?</h2>
+            <div class="row mt-5 mb-5">
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-solid fa-thumbs-up fa-3x text-warning"></i>
+                    <h4 class="mt-3">Berkualitas</h4>
+                    <p>Terlengkap dan Terpercaya</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-solid fa-clock text-warning fa-3x"></i>
+                    <h4 class="mt-3">24/7 Orders</h4>
+                    <p>Belanja Tanpa Ribet</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-sharp fa-solid fa-truck-fast fa-3x text-warning"></i>
+                    <h4 class="mt-3">Gratis Ongkir</h4>
+                    <p>Khusus Member dengan minimum pembelian Rp 150.000</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <i class="fa-solid fa-money-bill fa-3x text-warning"></i>
+                    <h4 class="mt-3">Special Price</h4>
+                    <p>Harga spesial untuk member PAWPAW</p>
+                </div>
+            </div>
+        </div>
+        <!-- AKHIR SECTION KEUNGGULAN -->
+    </div>
+    <!-- AKHIR DARI BIO TIM -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-purple text-white-50 footer pt-3 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html">
+                        <img src="./img/logo-full.png" class="img-fluid" alt="logo pawpaw">
+                    </a>
+                    <div class="d-flex pt-2 mx-6 my-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-white mb-4">Features</h3>
+                    <a class="btn btn-link text-white-50" href="./about.html">Tentang Kami</a>
+                    <a class="btn btn-link text-white-50" href="#">Makanan</a>
+                    <a class="btn btn-link text-white-50" href="./vitamin.html">Vitamin</a>
+                    <a class="btn btn-link text-white-50" href="./Perlengkapan.html">Perlengkapan</a>
+                    <a class="btn btn-link text-white-50" href="./FAQ.html">FAQ</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="text-white mb-4">Kontak Kami</h3>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Lenteng Agung, Jakarta Selatan
+                    </p>
+                    <p class="mb-2"><i class="fa fa-mobile-alt me-3"></i>0812 3456 7890</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>021 9999 000</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@pawpaw.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="text-center mb-3 mb-md-0">
+                        &copy; 2022 PAWPAW Petshop, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+    <!-- Back to Top -->
+    <a href="#start" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
